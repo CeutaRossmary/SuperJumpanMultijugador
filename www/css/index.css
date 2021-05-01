@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+}
+
+#txt-email,
+#txt-password,
+#txt-username{
+    position: absolute;
+    left: 12%;
+    border-style: solid;
+    border-width: thin;
+    height: 1.5em;
+    opacity: 0.83;
+    border-radius: 5px;
+    font-size: 2em;
+}
+
+#txt-email{
+    top: 37%;
+}
+
+#txt-password{
+    top: 47%;
+    width: 9em;
+}
+
+#txt-username{
+    top: 40%;
+    display: none;
+    background-color: black;
+    color: white;
+}
+
+#img-show-password{
+    position: absolute;
+    height: 3em;
+    top: 47%;
+    left: 34%;
+    cursor: pointer;
+}
+
+input[type='checkbox']{
+    display: none;
+}
+
+#btn{
+    display:none;
+     position: absolute;
+     margin-top: 521px;
+     left: 547Px;  
+     border-radius:12px;
+     box-shadow: 0 8px 16px 0;
+     background-color:#1fee26;
+     width:140px;
+     height:40px;
+     font-style:tahoma, sans-serif;;
+     font-weight: bold; 
+     background: linear-gradient(white,orange);
+     -webkit-background-clip: text;
+    color: transparent;
+     }
+
+#puntaje{
+    position: absolute; 
+    font-weight: bold; 
+    font-size:20px; 
+     /* color:rgb(56, 214, 24); */
+     margin-top: 90px;
+     left: 300px;
+     font-style:tahoma, sans-serif;
+     background: linear-gradient(orange, #BFFF00, #00aae4, white);
+     -webkit-background-clip: text;
+      color: transparent;
+      
+}
+#datos{
+    position: absolute; 
+    font-weight: bold; 
+    font-size:20px; 
+     /* color:rgb(56, 214, 24); */
+     margin-top: 65px;
+     left: 317px;
+     font-style:tahoma, sans-serif;
+     color:red;
+     display:none;
+}
+
+td{
+    padding-left:29px ;
+}
+#titulo{
+    position: absolute; 
+    font-weight: bold; 
+    font-size:30px; 
+     margin-top: 20px;
+     left: 325px;
+     font-style:tahoma, sans-serif;
+     color:white;
+     display:none;
+}

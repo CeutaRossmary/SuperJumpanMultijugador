@@ -44,20 +44,20 @@ input[type='checkbox']{
 }
 
 #btn{
-    display:none;
+     display: none;
      position: absolute;
      margin-top: 521px;
      left: 547Px;  
      border-radius:12px;
      box-shadow: 0 8px 16px 0;
      background-color:#1fee26;
-     width:140px;
+     width:80px;
      height:40px;
      font-style:tahoma, sans-serif;;
      font-weight: bold; 
-     background: linear-gradient(white,orange);
+     background: linear-gradient(white,orange)!important;
      -webkit-background-clip: text;
-    color: transparent;
+    color:rgb(214, 16, 16);
      }
 
 #puntaje{
